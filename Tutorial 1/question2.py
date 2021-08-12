@@ -1,8 +1,5 @@
 # define function for Q2
 def q2():
-    # initialize variable
-    count = 0
-
     # exception handler for i/o
     try:
         # read from file
