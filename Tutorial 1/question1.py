@@ -1,8 +1,5 @@
 # define function for Q1
 def q1():
-    # initialize variable
-    result = []
-
     # exception handler for i/o
     try:
         # read from file
@@ -15,7 +12,6 @@ def q1():
         # iterate each line as an element from block list
         for user in blocklist:
             print(user)
-            result.append(user)
 
     # catch exception
     except FileNotFoundError as err:
