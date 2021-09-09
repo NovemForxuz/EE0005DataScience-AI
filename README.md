@@ -17,7 +17,7 @@ Practise Data Acquisition and Preparation techniques
 - Extract limited set of data
 ***
 ### Exercise 2: Basic Statistics
-Practise Data Preparation and Visualization techniques for Uni-Variate Statistics based on Housing Data from Kaggle.
+Practise Data Preparation and Visualization techniques for Uni-Variate Statistics based on House Prices Competition from Kaggle.
 ***
 #### Problem 1: Data Preparation
 - Import Dataset (csv)
@@ -31,7 +31,7 @@ Practise Data Preparation and Visualization techniques for Uni-Variate Statistic
 - Correlation between "SalePrice" and "LotArea" (Jointplot, Heatmap)
 ***
 ### Exercise 3: Exploratory Analysis
-Predict “SalePrice” of a house, based on the other variables given in the Housing Data from Kaggle.<br>
+Predict “SalePrice” of a house, based on the other variables given in the House Prices Competition from Kaggle.<br>
 ***
 #### Problem 1: Numeric Variables
 >`LotArea`, `GrLivArea`, `TotalBsmtSF`, `GarageArea`, `SalePrice`
@@ -45,3 +45,22 @@ Predict “SalePrice” of a house, based on the other variables given in the Ho
 - Visualization of Distribution of all variables (Catplots) <br>
 - Relationship amongst Variables (Heatmap of counts) <br>
 - Relationship of "SalePrice" against each categorical variables (Boxplots)
+***
+### Exercise 4: Linear Regression
+Predict “SalePrice” using Linear Regression, based on numeric variables given in House Prices Competition from Kaggle.<br>
+***
+#### Problem 1: Predicting SalePrice using GrLivArea
+>Predictor : `GrLivArea`<br>
+>Response : `SalePrice`
+- Plot predictor against response, note linear relationship (Jointplot, Correlation)
+- Import Linear Regression model form Scikit-Learn
+- Partition Dataset into Train and Test Sets
+- Train the dataset
+- Coefficients and plot using the standard slope-intercept form of straight line for Linear Regression model (Scatterplot)
+- Predict SalePrice for Test Dataset usnig Linear Regression model and visualize predictions (Scatterplot)
+- Explained Variance and Goodness of Fit of Model
+#### Problem 2: Predicting SalePrice using Other Variables
+>Predictor : `LotArea`,`TotalBsmtSF`,`GarageArea`<br>
+>Response : `SalePrice`
+- - *Same 7 points*   , and
++ Multi-Variate Linear Regression
