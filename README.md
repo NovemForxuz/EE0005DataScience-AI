@@ -83,4 +83,4 @@ Predictor Feature : `SalePrice`
 >Predictor : `GrLivArea`,`LotArea`,`TotalBsmtSF`<br>
 >Response : `CentralAir`
 - - *Same 8 points*   , and
-+ Multi-Variate Linear Regression
++ Multi-Variate Classification Tree
