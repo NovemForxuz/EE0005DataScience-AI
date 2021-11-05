@@ -68,9 +68,9 @@ Predict “SalePrice” using Linear Regression, based on numeric variables give
 ### Exercise 5: Classification Tree
 Predict if a House has a "Central Air Conditioning" (Categorical Variable) or not using Numeric Variables given in House Prices Competition from Kaggle.<br>
 ***
-#### Problem 1: Predicting CentralAir using SalePrice
-Response Variable : `CentralAir`     
-Predictor Feature : `SalePrice`   
+#### Problem 1: Predicting CentralAir using SalePrice  
+>Predictor Feature : `SalePrice`   
+>Response Variable : `CentralAir`   
 - Plot binary distribution check ratio of CentralAir (Catplot)
 - Plot predictor against response, note strong and mutual relationship respectively (Boxplot, Swarmplot)
 - Import Classification Tree model form Scikit-Learn
@@ -79,7 +79,7 @@ Predictor Feature : `SalePrice`
 - Visualize the Decision Tree model (Graphiz, Plot Tree)
 - Predict CentralAir for both Train and Test dataset using Decision Tree model and
 - Plot Two-Way Confusion Matrix (Confusion Matrix)
-#### Problem 2: Predicting SalePrice using Other Variables
+#### Problem 2: Predicting CentralAir using Other Variables
 >Predictor : `GrLivArea`,`LotArea`,`TotalBsmtSF`<br>
 >Response : `CentralAir`
 - - *Same 8 points*   , and
